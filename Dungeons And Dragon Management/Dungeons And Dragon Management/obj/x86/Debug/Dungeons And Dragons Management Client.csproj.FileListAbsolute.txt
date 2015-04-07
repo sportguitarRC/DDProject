@@ -1,0 +1,6 @@
+D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragon Management\obj\x86\Debug\Dungeons_And_Dragon_Management.Properties.Resources.resources
+D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragon Management\obj\x86\Debug\Dungeons And Dragons Management Client.csproj.GenerateResource.Cache
+D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragon Management\bin\Debug\Dungeons And Dragon Management.exe
+D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragon Management\bin\Debug\Dungeons And Dragon Management.pdb
+D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragon Management\obj\x86\Debug\Dungeons And Dragon Management.exe
+D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragon Management\obj\x86\Debug\Dungeons And Dragon Management.pdb
