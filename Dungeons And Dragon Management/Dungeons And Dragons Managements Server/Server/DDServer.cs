@@ -67,15 +67,15 @@ namespace Dungeons_And_Dragons_Managements_Server
             prepareReceive((Socket)sender);
         }
 
-        public void SendToClient(object toSend)
+        public void SendToClient(object toSend, Socket socketClient)
         {
             SocketAsyncEventArgs sendSAEA = new SocketAsyncEventArgs();
             BinaryFormatter bf = new BinaryFormatter();
             MemoryStream ms = new MemoryStream();
 
             bf.Serialize(ms, toSend);
-            //A revoir
-            //sendSAEA.SetBuffer(bf.ToArray(), 0, bf.ToArray().Length);
+            sendSAEA.SetBuffer(ms.ToArray(), 0, ms.ToArray().Length);
+            socketClient.SendAsync(sendSAEA);
         }
     }
 }
