@@ -11,3 +11,4 @@ C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dunge
 C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragon Management\obj\x86\Debug\Dungeons And Dragons Management Client.csproj.GenerateResource.Cache
 C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragon Management\obj\x86\Debug\Dungeons And Dragon Management.exe
 C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragon Management\obj\x86\Debug\Dungeons And Dragon Management.pdb
+D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragon Management\obj\x86\Debug\Dungeons_And_Dragon_Management.ClientForm.resources

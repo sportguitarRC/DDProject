@@ -9,11 +9,16 @@ using System.Windows.Forms;
 
 namespace Dungeons_And_Dragons_Managements_Server
 {
-    public partial class Form1 : Form
+    public partial class ServerForm : Form
     {
-        public Form1()
+        public ServerForm()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DDServer ServerConnection = new DDServer();
         }
     }
 }

@@ -8,17 +8,17 @@ using System.Windows.Forms;
 
 namespace Dungeons_And_Dragon_Management
 {
-    class NetworkEngine
+    class DDClient
     {
         Socket socketConnection;
         SocketAsyncEventArgs SAEA;
 
-        public NetworkEngine(string ipAdress, int port)
+        public DDClient(string ipAdress, int port)
         {
             socketConnection = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
             IPEndPoint ipInfo = new IPEndPoint(IPAddress.Parse(ipAdress), port) ;
-            SAEA.RemoteEndPoint = ipInfo;
             SAEA = new SocketAsyncEventArgs();
+            SAEA.RemoteEndPoint = ipInfo;
             SAEA.Completed+=new EventHandler<SocketAsyncEventArgs>(SAEA_Completed);
             socketConnection.ConnectAsync(SAEA);
         }

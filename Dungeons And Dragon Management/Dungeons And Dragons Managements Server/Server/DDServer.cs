@@ -7,13 +7,13 @@ using System.Net;
 
 namespace Dungeons_And_Dragons_Managements_Server
 {
-    class DADMServer
+    class DDServer
     {
         private Socket socketBucket;
         private List<Socket> lobby;
         private SocketAsyncEventArgs SAEA;
 
-        public DADMServer()
+        public DDServer()
         {
 
         }
