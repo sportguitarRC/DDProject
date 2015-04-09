@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Dungeons_And_Dragon_Management
 {
-    class Misc
+    class Misc : Equipment
     {
     }
 }

@@ -4,3 +4,10 @@ D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeon
 D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\obj\x86\Debug\Dungeons And Dragons Managements Server.csproj.GenerateResource.Cache
 D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\obj\x86\Debug\Dungeons And Dragons Managements Server.exe
 D:\Cégep\DD Character Sheet Project\Code\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\obj\x86\Debug\Dungeons And Dragons Managements Server.pdb
+C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\bin\Debug\Dungeons And Dragons Managements Server.exe
+C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\bin\Debug\Dungeons And Dragons Managements Server.pdb
+C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\obj\x86\Debug\Dungeons And Dragons Managements Server.csprojResolveAssemblyReference.cache
+C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\obj\x86\Debug\Dungeons_And_Dragons_Managements_Server.Properties.Resources.resources
+C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\obj\x86\Debug\Dungeons And Dragons Managements Server.csproj.GenerateResource.Cache
+C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\obj\x86\Debug\Dungeons And Dragons Managements Server.exe
+C:\Users\client\Documents\Travaux Scolaire\Hiver 2015\Réseau II\DDProject\Dungeons And Dragon Management\Dungeons And Dragons Managements Server\obj\x86\Debug\Dungeons And Dragons Managements Server.pdb
