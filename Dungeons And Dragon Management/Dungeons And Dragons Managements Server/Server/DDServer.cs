@@ -26,15 +26,43 @@ namespace Dungeons_And_Dragons_Managements_Server
             socketBucket.Bind(theIp);
             socketBucket.Listen(6);
 
-            SAEA.Completed += SAEA_Completed;
+            SAEA.Completed += AcceptConnection;
         }
 
-        private void SAEA_Completed(object sender, SocketAsyncEventArgs e)
+        private void AcceptConnection(object sender, SocketAsyncEventArgs e)
         {
             if (e.SocketError == SocketError.Success)
             {
-                lobby.Add(e.AcceptSocket);
+                Socket socketClient = e.AcceptSocket;
+                lobby.Add(socketClient);
+
+                prepareReceive(socketClient);
             }
+        }
+
+        private void prepareReceive(Socket socketClient)
+        {
+            SocketAsyncEventArgs receiveSAEA = new SocketAsyncEventArgs();
+            byte[] receivedData = new byte[1024];
+
+            receiveSAEA.Completed += receive;
+            receiveSAEA.SetBuffer(receivedData, 0, receivedData.Length);
+        }
+
+        private void receive(object sender, SocketAsyncEventArgs e)
+        {
+            if (e.BytesTransferred != 0)
+            {
+                //TODO: faire les opérations lors de la réception des données.
+            }
+            else
+            {
+                Socket theSocket = (Socket)sender;
+                theSocket.Disconnect(false);
+                theSocket.Dispose();
+            }
+
+            prepareReceive((Socket)sender);
         }
     }
 }
