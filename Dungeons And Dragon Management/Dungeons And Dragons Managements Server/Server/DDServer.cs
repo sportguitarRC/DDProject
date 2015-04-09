@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Net.Sockets;
 using System.Net;
+using System.Runtime.Serialization.Formatters.Binary;
+using System.IO;
 
 namespace Dungeons_And_Dragons_Managements_Server
 {
@@ -63,6 +65,17 @@ namespace Dungeons_And_Dragons_Managements_Server
             }
 
             prepareReceive((Socket)sender);
+        }
+
+        public void SendToClient(object toSend)
+        {
+            SocketAsyncEventArgs sendSAEA = new SocketAsyncEventArgs();
+            BinaryFormatter bf = new BinaryFormatter();
+            MemoryStream ms = new MemoryStream();
+
+            bf.Serialize(ms, toSend);
+            //A revoir
+            //sendSAEA.SetBuffer(bf.ToArray(), 0, bf.ToArray().Length);
         }
     }
 }
